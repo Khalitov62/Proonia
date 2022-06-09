@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\OneDrive\\Masaüstü\\Pronia\\Ap204_Pronia\\Ap204_Pronia.csproj": {}
+    "C:\\Users\\user\\OneDrive\\Masaüstü\\BackENd\\Ap204_Pronia\\Ap204_Pronia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\OneDrive\\Masaüstü\\Pronia\\Ap204_Pronia\\Ap204_Pronia.csproj": {
+    "C:\\Users\\user\\OneDrive\\Masaüstü\\BackENd\\Ap204_Pronia\\Ap204_Pronia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Masaüstü\\Pronia\\Ap204_Pronia\\Ap204_Pronia.csproj",
+        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Masaüstü\\BackENd\\Ap204_Pronia\\Ap204_Pronia.csproj",
         "projectName": "Ap204_Pronia",
-        "projectPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\Pronia\\Ap204_Pronia\\Ap204_Pronia.csproj",
+        "projectPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\BackENd\\Ap204_Pronia\\Ap204_Pronia.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\Pronia\\Ap204_Pronia\\obj\\",
+        "outputPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\BackENd\\Ap204_Pronia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.25, )"
